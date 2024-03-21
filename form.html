@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Abo el rorr.co</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="my.css" rel="stylesheet" >
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Abo el rorr.Co</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +24,13 @@
               <a class="nav-link active" aria-current="page" href="tables.html">prices</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="form.html">Contact us</a>
+              <a class="nav-link active" aria-current="page" href="form copy.html">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="form.html">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contactus.html">Contact us</a>
             </li>
         </ul>
         <form class="d-flex" role="search">
@@ -32,40 +40,21 @@
       </div>
     </div>
   </nav>
-  <br><br>
-  <div class="input-group mb-3" >
-    <span class="input-group-text" id="basic-addon1">@</span>
-    <input type="text" class="form-control" placeholder="Full name" aria-label="Username" aria-describedby="basic-addon1">
-  </div>
-  
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-    <span class="input-group-text" id="basic-addon2">@example.com</span>
-  </div>
-  
-  <div class="mb-3">
-    <label for="basic-url" class="form-label">your Phone Number</label>
-    <div class="input-group">
-      <span class="input-group-text" id="basic-addon3">+961</span>
-      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+</div>
+  <form class="row g-3"style='padding: 10%;'>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="example@example.com">
     </div>
-    <div class="form-text" id="basic-addon4">all this data is stored securly.</div>
-  </div>
-  
-  <div class="input-group mb-3">
-    <span class="input-group-text">$</span>
-    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-    <span class="input-group-text">.00</span>
-  </div>
-  
-  
-  
-  <div class="input-group">
-    <span class="input-group-text">Notes</span>
-    <textarea class="form-control" aria-label="With textarea"></textarea>
-  </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4"placeholder="*****">
+    </div>
+   
+      <button type="submit" class="btn btn-primary" >Log in</button>
+    </div>
+  </form>
        <hr><hr>    
-            
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+       <script src="bootstrap.bundle.min.js" ></script>            
 </body>
 </html>
