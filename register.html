@@ -1,0 +1,386 @@
+<html>
+    <head>
+        <title>ProGym</title> 
+        <style>
+        .stroke
+            {
+              color: rgb(0, 0, 0);
+              text-shadow:
+                -1px -1px 0 #ffffff,
+                1px -1px 0 #ffffff,
+                -1px 1px 0 #ffffff,
+                1px 1px 0 #ffffff; 
+            }
+
+        .card .icon 
+            {
+          font-size: 3rem;
+           color:rgb(47, 175, 255);
+            }
+
+        .card-text
+            {
+          color: gray;
+            }
+
+        .card:hover 
+            {
+          background-color: rgb(47, 175, 255);
+          color: #fff;
+            }
+
+        .card {
+          transition: all 0.5s;
+              }
+
+        .card:hover .icon,
+        .card:hover .card-text
+              {
+          color: #fff;
+              }
+                
+        .card:hover .notincluded
+              {
+          color:rgb(47, 175, 255) ;
+              }
+
+        .notincluded
+              {
+          color: #343434;
+              }
+
+        .notincludedicon
+              {
+          color: rgba(47, 175, 255, 0.477)
+              }
+        .notincludedicon:hover
+              {
+          color: rgb(47, 175, 255)
+              }
+        .navtex
+              {
+          color: #ffffff;
+          text-decoration: none;
+              }
+        .navtex:hover
+              {
+          color: rgb(47, 175, 255);
+               }
+        .footer__link
+              {
+          text-decoration: none;
+              }
+            
+          </style>
+       <link rel="shortcut icon" type="ProGym-icon" href="img/logoic.png">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+      
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body style="background-color:#1b1b1b">
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+
+      <!-- navbar -->
+
+      <nav class="navbar navbar-expand-lg  sticky-top" style="background-color:#1b1b1b">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" style="font-family: red hat display,serif; color: rgb(47, 175, 255); font-weight: bolder;"><img src="img/logoic.png" alt="Logo"  class="d-inline-block align-text-top px-1"> ProGym</a>
+
+          <button style="background-color:  rgb(47, 175, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav ">
+
+              <a class="navtex p-2"  href="index.html">Home</a>
+
+              <a class="navtex p-2" href="whyus.html">Why Us</a>
+
+              <a class="navtex p-2" href="bmicalc.html">BMI Calculator</a>
+
+              <a href=register.html class="navtex px-3"> <button type="button" class="btn btn-outline-primary btn-lg rounded-0">Register</button></a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+
+        <section >     
+          <div class="animate__animated animate__fadeInDown container align-items-center p-4" style="text-align: center;">
+
+            <h1 class="display-6 py-1"><p style="font-family: kaushan script,cursive; color:rgb(47, 175, 255); transform: rotate(-4deg) ; " >Pricing</p></h1>
+
+            <h1 class="display-5 " style="font-family:Red Hat Display, serif; color: #ffffff; font-weight: bold;"><span class="stroke" style="color: black;">OUR</span>
+          SPECIAL PLAN</h1>
+
+          </div>
+
+        </section>
+
+        <!-- pricing -->
+
+        <section id="cards" >
+
+             <div class="container py-5 ">
+   
+               <div class="row text-center">
+   
+                 <div class=" col-12 col-md-6 col-lg-4 mb-4">
+   
+                   <div class="animate__animated animate__fadeInDown card text-center border-0 shadow rounded-0 p-4 mx-auto " style="width: 20rem ;height: 30rem;  ">
+                   <div class="icon">
+                     <i class="bi bi-circle-half "></i>
+                   </div>
+                   <br>
+                   <div class="card-body">
+                     
+                     <div class="card-text" style="text-align: left;" class="px-4">
+                        <h5 class="card-text fw-bold text-light fs-5 fs-md-4 text-align: left;">BASIC PACKAGE</h5>
+                        <p style="font-size: xx-large; font-family: red hat display,serif; font-weight: bolder;">95$</p>
+                        <p >
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         5 Days In A Week</p>
+                        <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         01 Sweatshirt</p>
+                        <p style="text-align: left;" class="notincluded"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle notincludedicon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         01 Bottle of Protein</p>
+                        <p style="text-align: left;" class="notincluded"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle notincludedicon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         Access to Videos</p>
+                        <p style="text-align: left;" class="notincluded"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle notincludedicon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         Muscle Stretching</p></div>                   </div>
+     
+                 </div>
+               </div>
+   
+                 <div class="col-12 col-md-6 col-lg-4 mb-4">
+   
+                   <div class="animate__animated animate__fadeInDown card text-left border-0 shadow rounded-0 p-4 mx-auto " style="width: 20rem;height: 30rem;  ">
+                     <div class="icon align-items-left">
+                       <i class="bi bi-diamond-half"></i>
+                     </div>
+                     <br>
+                     <div class="card-body ">
+                      
+                       <div class="card-text" style="text-align: left;" class="px-5"> 
+                        <h5 class="card-text fw-bold text-light fs-5 fs-md-4">PREMIUM PACKAGE</h5>
+                       <p style="font-size: xx-large; font-family: red hat display,serif; font-weight: bolder;">160$</p>
+                       <p >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                        <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                        5 Days In A Week</p>
+                       <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                        <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                        01 Sweatshirt</p>
+                       <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                        <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                        01 Bottle of Protein</p>
+                       <p style="text-align: left;"class="notincluded"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle notincludedicon" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                        <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                        Access to Videos</p>
+                       <p style="text-align: left;"class="notincluded"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle notincludedicon" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                        <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                        Muscle Stretching</p></div>
+                     </div>
+       
+                   </div>
+   
+                 </div>
+   
+                 <div class="col-12 col-md-6 col-lg-4 mb-4">
+   
+                   <div class="animate__animated animate__fadeInDown card border-0 shadow rounded-0 p-4 mx-auto " style="width: 20rem;height: 30rem; ">
+                     <div class="icon ">
+                       <p class="text"><i class="bi bi-gem"></i></p>
+                     </div>
+                     <br>
+                     <div class="card-body">
+                       <div class="card-text" style="text-align: left;" class="px-5">                       
+                        <h5 class="card-text fw-bold text-light fs-5 fs-md-4">DIAMOND PACKAGE</h5>
+
+                        <p style="font-size: xx-large; font-family: red hat display,serif; font-weight: bolder;">240$</p>
+                        <p >
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         5 Days In A Week</p>
+                        <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         01 Sweatshirt</p>
+                        <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         01 Bottle of Protein</p>
+                        <p style="text-align: left;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         Access to Videos</p>
+                        <p style="text-align: left;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle icon" viewBox="0 0 16 16" >
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                         <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"></path></svg>
+                         Muscle Stretching</p></div>                     </div>
+       
+                   </div>
+   
+                 </div>
+   
+                 
+   
+               </div>
+   
+              
+           </div>
+   
+           </section>
+
+           <!-- footer -->
+
+           
+
+            <footer class="bg-dark text-center text-lg-start  mt-xl-5 pt-4">
+            
+              <div class="container p-4">
+
+               <div class="row">
+ 
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h3 style="color: #ffffff;">SERVICES</h3>
+
+                  <ul class="list-unstyled mb-4">
+                   <li>
+
+                    <a href="index.html#cards" class="footer__link">Flex Muscle</a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="index.html#cards" class="footer__link">Cardio Exercise</a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="index.html#cards" class="footer__link">Basic Yoga</a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="index.html#cards" class="footer__link">Weight Lifting</a>
+
+                  </li>
+                </ul>
+                </div>
+   
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h3 style="color: #ffffff;">Pricing</h3>
+
+                  <ul class="list-unstyled">
+                  
+                    <li>
+
+                      <a href="register.html" class="footer__link">Basic</a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="register.html" class="footer__link">Premium</a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="register.html" class="footer__link">Diamond</a>
+
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h3 style="color: #ffffff;">COMPANY</h3>
+
+                  <ul class="list-unstyled">
+
+                    <li>
+
+                      <a href="whyus.html" class="footer__link">Why Us</a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="index.html#sponsers" class="footer__link">Sponsers</a>
+
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  
+                  <p style="font-family: red hat display,serif; font-weight: bolder; color: #ffffff; font-size: large;">ProGym</p>
+
+                  <p style="color: #ffffff; font-weight: lighter;">Subscribe for company updates below.</p>
+
+                  <div class="p-1" style=" border-color: rgb(47, 175, 255); border-width: 2px; background-color: #1b1b1b; outline : 0; border-style:solid; color: grey;">
+                
+                    <input type="text"  class="form-control border-0"  style="  outline : 0; background-color: #1b1b1b; color: #ffffff;">
+                    
+                  </div>
+                  <br>
+                  <button class=" btn btn-primary rounded-0 py-2">SUBSCRIBE</button>
+                </div>
+      
+              </div>
+            
+            </div>
+      
+
+          </footer>
+
+          
+
+
+    </body>
+</html>
